@@ -1,0 +1,10 @@
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\bin\Release\Plugin.dll
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\bin\Release\Plugin.pdb
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\bin\Release\Plugin.xml
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.Resources.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\ResGen.read.1.tlog
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\ResGen.write.1.tlog
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.dll
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.xml
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.pdb

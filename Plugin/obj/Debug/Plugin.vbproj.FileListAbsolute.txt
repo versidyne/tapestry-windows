@@ -1,0 +1,2 @@
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Debug\Plugin.Resources.resources
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Debug\Plugin.vbproj.GenerateResource.Cache

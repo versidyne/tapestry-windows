@@ -1,0 +1,13 @@
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Vexis Server.exe
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Vexis Server.xml
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Vexis Server.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\bin\Debug\Vexis Server.exe
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\bin\Debug\Vexis Server.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\bin\Debug\Vexis Server.xml
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\bin\Debug\Versidyne.Network.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\bin\Debug\Versidyne.Network.xml
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Server.vbprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Vexis_Server.Info.resources
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Vexis_Server.Main.resources
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Vexis_Server.Resources.resources
+C:\Users\Alex\Documents\GitHub\vexis-windows\Server\obj\Debug\Server.vbproj.GenerateResource.Cache
