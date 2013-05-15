@@ -252,7 +252,7 @@
 
         BuddyList.Items.Clear()
 
-        Dim RawContacts As String = NetGet.Retreive("http://api.versidyne.com/?session=" + Session + "&info=contacts")
+        Dim RawContacts As String = NetGet.Retreive("http://api.versidyne.com/?session=" + Session + "&info=associates")
         Dim Contacts As Array = Split(RawContacts, "<|(row)|>")
         Dim Contact As String = Nothing
         Dim Info As String() = Nothing
