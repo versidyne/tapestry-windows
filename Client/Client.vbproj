@@ -12,7 +12,7 @@
     <AssemblyName>Vexis</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
@@ -38,6 +38,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,6 +50,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <PlatformTarget>x86</PlatformTarget>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -60,10 +62,14 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <PlatformTarget>x86</PlatformTarget>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core">
@@ -72,21 +78,17 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="Versidyne.Network, Version=0.3.0.0, Culture=neutral, PublicKeyToken=e07c493f571cefe7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Application Environment\Output\Any\Versidyne.Network.dll</HintPath>
+    <Reference Include="Versidyne.Network">
+      <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Network.dll</HintPath>
     </Reference>
-    <Reference Include="Versidyne.Plugins, Version=0.1.0.0, Culture=neutral, PublicKeyToken=a0143cefee48aab7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Application Environment\Output\Any\Versidyne.Plugins.dll</HintPath>
+    <Reference Include="Versidyne.Plugins">
+      <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Plugins.dll</HintPath>
     </Reference>
-    <Reference Include="Versidyne.Protocols, Version=0.1.0.0, Culture=neutral, PublicKeyToken=a09f880977d7858c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Application Environment\Output\Any\Versidyne.Protocols.dll</HintPath>
+    <Reference Include="Versidyne.Protocols">
+      <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Protocols.dll</HintPath>
     </Reference>
-    <Reference Include="Versidyne.Security, Version=0.1.0.0, Culture=neutral, PublicKeyToken=57532c65ac70b0ff, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Application Environment\Output\Any\Versidyne.Security.dll</HintPath>
+    <Reference Include="Versidyne.Security">
+      <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Security.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -146,12 +148,6 @@
     <Compile Include="Forms\Plugins.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Splash.Designer.vb">
-      <DependentUpon>Splash.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Splash.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -193,10 +189,6 @@
       <DependentUpon>Plugins.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Splash.resx">
-      <DependentUpon>Splash.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -205,6 +197,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

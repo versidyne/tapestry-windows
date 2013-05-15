@@ -6,13 +6,9 @@
         Dim ApplicationTitle As String
 
         If My.Application.Info.Title <> "" Then
-
             ApplicationTitle = My.Application.Info.Title
-
         Else
-
             ApplicationTitle = System.IO.Path.GetFileNameWithoutExtension(My.Application.Info.AssemblyName)
-
         End If
 
         Me.Text = String.Format("About {0}", ApplicationTitle)

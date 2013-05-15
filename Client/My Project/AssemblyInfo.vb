@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("This program will be an information services system.")> 
 <Assembly: AssemblyCompany("Versidyne LLC")> 
 <Assembly: AssemblyProduct("Vexis")> 
-<Assembly: AssemblyCopyright("Copyright © Versidyne LLC 2010")> 
+<Assembly: AssemblyCopyright("Copyright © Versidyne LLC 2010-2013")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>

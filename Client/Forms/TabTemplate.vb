@@ -2,8 +2,6 @@
 
     Inherits System.Windows.Forms.TabPage
 
-    
-
     'Protected Overrides Sub OnPaint(ByVal e As System.Windows.Forms.PaintEventArgs)
     'MyBase.OnPaint(e)
     'Generate()
@@ -12,9 +10,7 @@
     'End Sub
 
     Public Sub Generate()
-
-        
-
+        'code here
     End Sub
 
 End Class
