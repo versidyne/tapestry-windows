@@ -336,36 +336,36 @@
 
             If EncCheck = True Then
 
-                If DecodedData(4) = "Text" Then
+                If DecodedData(7) = "Text" Then
 
-                    Sender = DecodedData(3)
-                    Data = DecodedData(5)
+                    Sender = DecodedData(5)
+                    Data = DecodedData(8)
 
-                ElseIf DecodedData(4) = "EncText" Then
-
-                    Dim Encrypter As New Versidyne.Security.Rijndael
-
-                    Sender = DecodedData(3)
-                    Data = Encrypter.StringDecrypt(DecodedData(5), EncPass)
-
-                ElseIf DecodedData(4) = "CEncText" Then
+                ElseIf DecodedData(7) = "EncText" Then
 
                     Dim Encrypter As New Versidyne.Security.Rijndael
 
-                    Sender = DecodedData(3)
-                    Data = Encrypter.StringDecrypt(DecodedData(5), CustomEncPass)
+                    Sender = DecodedData(5)
+                    Data = Encrypter.StringDecrypt(DecodedData(8), EncPass)
+
+                ElseIf DecodedData(7) = "CEncText" Then
+
+                    Dim Encrypter As New Versidyne.Security.Rijndael
+
+                    Sender = DecodedData(5)
+                    Data = Encrypter.StringDecrypt(DecodedData(8), CustomEncPass)
 
                 Else
 
-                    Sender = DecodedData(3)
-                    Data = DecodedData(5)
+                    Sender = DecodedData(5)
+                    Data = DecodedData(8)
 
                 End If
 
             Else
 
-                Sender = DecodedData(3)
-                Data = DecodedData(5)
+                Sender = DecodedData(5)
+                Data = DecodedData(8)
 
             End If
 
