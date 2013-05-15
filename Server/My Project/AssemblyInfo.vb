@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("Vexis Server")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Microsoft")> 
+<Assembly: AssemblyDescription("This program will be an information services system.")> 
+<Assembly: AssemblyCompany("Versidyne LLC")> 
 <Assembly: AssemblyProduct("Vexis Server")> 
-<Assembly: AssemblyCopyright("Copyright © Microsoft 2010")> 
+<Assembly: AssemblyCopyright("Copyright © Versidyne LLC 2010-2013")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("0.5.0.0")> 
+<Assembly: AssemblyFileVersion("0.5.0.0")> 

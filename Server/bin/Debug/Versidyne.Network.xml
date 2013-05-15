@@ -6,7 +6,20 @@ Versidyne.Network
 </name>
 </assembly>
 <members>
-<member name="E:Versidyne.Network.NetSock.DataArrival">
+<member name="P:Versidyne.Network.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Versidyne.Network.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Versidyne.Network.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="E:Versidyne.Network.NetSock.DataArrival">
 	<summary>
  Data received on the connection.
  </summary>
@@ -29,19 +42,6 @@ Versidyne.Network
  Server receives a connection.
  </summary>
 	<remarks></remarks>
-</member><member name="P:Versidyne.Network.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Versidyne.Network.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:Versidyne.Network.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
 </member>
 </members>
 </doc>
