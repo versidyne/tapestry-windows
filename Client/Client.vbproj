@@ -17,7 +17,7 @@
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
-    <ApplicationIcon>shadow_head.ico</ApplicationIcon>
+    <ApplicationIcon>V.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -228,6 +228,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="shadow_head.ico" />
+    <Content Include="V.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

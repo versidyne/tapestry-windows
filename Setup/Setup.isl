@@ -1167,7 +1167,7 @@
 		<row><td>VEXIS1</td><td>VERSIDYNE</td><td>Vexis</td><td/><td>0</td><td/></row>
 		<row><td>WindowsFolder</td><td>TARGETDIR</td><td>.:Windows</td><td/><td>0</td><td/></row>
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
-		<row><td>versid_1_versidyne_llc</td><td>ProgramMenuFolder</td><td>VERSID~1|Versidyne LLC</td><td/><td>1</td><td/></row>
+		<row><td>versid_1_versidyne_llc</td><td>ProgramMenuFolder</td><td>VERSID~1|Versidyne</td><td/><td>1</td><td/></row>
 		<row><td>vexis</td><td>versid_1_versidyne_llc</td><td>Vexis</td><td/><td>1</td><td/></row>
 	</table>
 
@@ -3864,6 +3864,8 @@
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>2057411316</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td>http://www.versidyne.com</td><td>0</td><td/><td>2057397492</td></row>
 		<row><td>ID_STRING2</td><td>1033</td><td>Versidyne LLC</td><td>0</td><td/><td>2057385204</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Vexis</td><td>0</td><td/><td>-2103361261</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td>Vexis</td><td>0</td><td/><td>-2103342829</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>2057411316</td></row>
 	</table>
 
@@ -4104,7 +4106,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{C63E53BF-A88C-40D1-8FA6-445AA8F0C6D1}</td></row>
 		<row><td>ISUSSignature</td><td>{7F2AAB7E-0F8D-4187-92AA-59C082D1F08A}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewRealSetupDesign,viewSystemSearch,viewRelease,viewDesignPatches,viewAppFiles,viewFeatureFiles,viewObjects</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewRealSetupDesign,viewSystemSearch,viewRelease,viewDesignPatches,viewAppFiles,viewFeatureFiles,viewObjects,viewShortcuts</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4558,6 +4560,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="i2">InstallMode</col>
 		<row><td>FileKey1</td><td>Client.Primary_output</td><td/><td>versid_1_versidyne_llc</td><td>2</td></row>
 		<row><td>FileKey2</td><td>Client.Primary_output</td><td/><td>vexis</td><td>2</td></row>
+		<row><td>NewShortcut2</td><td>Client.Primary_output</td><td/><td>vexis</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4643,6 +4646,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>NewShortcut1</td><td>DesktopFolder</td><td>##ID_STRING3##</td><td>Client.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut2</td><td>vexis</td><td>##ID_STRING4##</td><td>Client.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
