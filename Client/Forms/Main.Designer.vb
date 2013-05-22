@@ -45,6 +45,7 @@ Partial Class Main
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UpdateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
@@ -82,7 +83,7 @@ Partial Class Main
         '
         Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(92, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'EditToolStripMenuItem
@@ -97,42 +98,42 @@ Partial Class Main
         Me.ContactsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddToolStripMenuItem, Me.DeleteToolStripMenuItem1, Me.EditToolStripMenuItem2, Me.RefreshToolStripMenuItem})
         Me.ContactsToolStripMenuItem.Image = CType(resources.GetObject("ContactsToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ContactsToolStripMenuItem.Name = "ContactsToolStripMenuItem"
-        Me.ContactsToolStripMenuItem.Size = New System.Drawing.Size(121, 22)
-        Me.ContactsToolStripMenuItem.Text = "Contacts"
+        Me.ContactsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ContactsToolStripMenuItem.Text = "Associates"
         '
         'AddToolStripMenuItem
         '
         Me.AddToolStripMenuItem.Image = CType(resources.GetObject("AddToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AddToolStripMenuItem.Name = "AddToolStripMenuItem"
-        Me.AddToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
+        Me.AddToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AddToolStripMenuItem.Text = "Add"
         '
         'DeleteToolStripMenuItem1
         '
         Me.DeleteToolStripMenuItem1.Image = CType(resources.GetObject("DeleteToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.DeleteToolStripMenuItem1.Name = "DeleteToolStripMenuItem1"
-        Me.DeleteToolStripMenuItem1.Size = New System.Drawing.Size(113, 22)
+        Me.DeleteToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.DeleteToolStripMenuItem1.Text = "Delete"
         '
         'EditToolStripMenuItem2
         '
         Me.EditToolStripMenuItem2.Image = CType(resources.GetObject("EditToolStripMenuItem2.Image"), System.Drawing.Image)
         Me.EditToolStripMenuItem2.Name = "EditToolStripMenuItem2"
-        Me.EditToolStripMenuItem2.Size = New System.Drawing.Size(113, 22)
+        Me.EditToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
         Me.EditToolStripMenuItem2.Text = "Edit"
         '
         'RefreshToolStripMenuItem
         '
         Me.RefreshToolStripMenuItem.Image = CType(resources.GetObject("RefreshToolStripMenuItem.Image"), System.Drawing.Image)
         Me.RefreshToolStripMenuItem.Name = "RefreshToolStripMenuItem"
-        Me.RefreshToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
+        Me.RefreshToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RefreshToolStripMenuItem.Text = "Refresh"
         '
         'PluginsToolStripMenuItem
         '
         Me.PluginsToolStripMenuItem.Image = CType(resources.GetObject("PluginsToolStripMenuItem.Image"), System.Drawing.Image)
         Me.PluginsToolStripMenuItem.Name = "PluginsToolStripMenuItem"
-        Me.PluginsToolStripMenuItem.Size = New System.Drawing.Size(121, 22)
+        Me.PluginsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PluginsToolStripMenuItem.Text = "Plugins"
         '
         'SecurityToolStripMenuItem
@@ -140,7 +141,7 @@ Partial Class Main
         Me.SecurityToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EncryptionToolStripMenuItem})
         Me.SecurityToolStripMenuItem.Image = CType(resources.GetObject("SecurityToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SecurityToolStripMenuItem.Name = "SecurityToolStripMenuItem"
-        Me.SecurityToolStripMenuItem.Size = New System.Drawing.Size(121, 22)
+        Me.SecurityToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SecurityToolStripMenuItem.Text = "Security"
         '
         'EncryptionToolStripMenuItem
@@ -183,42 +184,48 @@ Partial Class Main
         '
         Me.ChannelsToolStripMenuItem.Image = CType(resources.GetObject("ChannelsToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ChannelsToolStripMenuItem.Name = "ChannelsToolStripMenuItem"
-        Me.ChannelsToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
+        Me.ChannelsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ChannelsToolStripMenuItem.Text = "Channels"
         '
         'ChatToolStripMenuItem
         '
         Me.ChatToolStripMenuItem.Image = CType(resources.GetObject("ChatToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ChatToolStripMenuItem.Name = "ChatToolStripMenuItem"
-        Me.ChatToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
+        Me.ChatToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ChatToolStripMenuItem.Text = "Chat"
         '
         'LoginToolStripMenuItem
         '
         Me.LoginToolStripMenuItem.Image = CType(resources.GetObject("LoginToolStripMenuItem.Image"), System.Drawing.Image)
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Image = CType(resources.GetObject("LogoutToolStripMenuItem.Image"), System.Drawing.Image)
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'HelpToolStripMenuItem
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'UpdateToolStripMenuItem
+        '
+        Me.UpdateToolStripMenuItem.Name = "UpdateToolStripMenuItem"
+        Me.UpdateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.UpdateToolStripMenuItem.Text = "Update"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Image = CType(resources.GetObject("AboutToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'StatusStrip1
@@ -348,5 +355,6 @@ Partial Class Main
     Friend WithEvents StatusImages As System.Windows.Forms.ImageList
     Friend WithEvents DeleteToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EditToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UpdateToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
