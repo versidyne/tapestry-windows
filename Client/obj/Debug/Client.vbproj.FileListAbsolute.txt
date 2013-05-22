@@ -29,3 +29,4 @@ C:\Users\Alex\Documents\GitHub\vexis-windows\Client\obj\Debug\Vexis.application
 C:\Users\Alex\Documents\GitHub\vexis-windows\Client\obj\Debug\Vexis.exe
 C:\Users\Alex\Documents\GitHub\vexis-windows\Client\obj\Debug\Vexis.xml
 C:\Users\Alex\Documents\GitHub\vexis-windows\Client\obj\Debug\Vexis.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Client\obj\Debug\Client.vbprojResolveAssemblyReference.cache
