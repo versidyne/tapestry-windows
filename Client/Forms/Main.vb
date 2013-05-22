@@ -3,6 +3,7 @@
 #Region "Callouts"
 
     'Children
+    Private UpdateChild As New Update
     Private AboutChild As New About
     Private ChannelsChild As New Channels
     Private LoginChild As New Login
@@ -407,6 +408,14 @@
         DisableTray = True
 
         Me.Close()
+
+    End Sub
+
+    Private Sub UpdateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UpdateToolStripMenuItem.Click
+
+        UpdateChild = New Update
+
+        UpdateChild.Show()
 
     End Sub
 
