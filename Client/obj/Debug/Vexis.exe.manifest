@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wHFkIdok3G4rS+3BtvWTWeWXEAt5y+gjoLadeJSYZuA=</dsig:DigestValue>
+        <dsig:DigestValue>UXRSIPHUKCP2I4s8MYoez4dlgsZ8PFCnm5q6nikpMR4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NEmoxiFk8H48cZvOlFKegTo2CrutaSCNX4waBL2vjLk=</dsig:DigestValue>
+        <dsig:DigestValue>o+4PzwrwVRAZsCdj4l/J/3P30U1wGIXeiz3ROgCCgf4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1O/z009fZeWdTcIWytMSV7adMIAe1LMtUXAMsgKPhoI=</dsig:DigestValue>
+        <dsig:DigestValue>kmq/ylpy3QYxft0cDBUlzN4cEiSr/nTyo7fGLhWLBOQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,19 +86,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yTKJOEZ0R/oiazGDBWYSaA6tEj1li14i8OxJvSb5ECE=</dsig:DigestValue>
+        <dsig:DigestValue>7m156AnOLY9YL8s6ulQE04UHxR34dwutpET/t63LSoQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vexis.exe" size="835072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vexis.exe" size="1203712">
       <assemblyIdentity name="Vexis" version="0.6.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1kPhg9ekjN6jouxim3PBK1Kl8zzIH6FLkMZW1TlGsJ8=</dsig:DigestValue>
+        <dsig:DigestValue>9JI5aKFHhXYiRUCUx/cTQmA06/fKXCZXClyYL/JkJW8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
