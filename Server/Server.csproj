@@ -81,9 +81,8 @@
     <Reference Include="System.Data.DataSetExtensions">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="Versidyne.Network, Version=0.3.0.0, Culture=neutral, PublicKeyToken=e07c493f571cefe7, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\cresco-windows\Output\Any\Versidyne.Network.dll</HintPath>
+    <Reference Include="Versidyne.Network">
+      <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Network.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
