@@ -8,3 +8,4 @@ C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Debug\Plugin.Properties.
 C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Debug\Plugin.csproj.GenerateResource.Cache
 C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Debug\Plugin.dll
 C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Debug\Plugin.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
