@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{F3887264-6F4C-471A-AD92-AED919B37C80}"
 EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup", "Setup\Setup.isproj", "{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
@@ -22,6 +24,16 @@ Global
 		{F3887264-6F4C-471A-AD92-AED919B37C80}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3887264-6F4C-471A-AD92-AED919B37C80}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{F3887264-6F4C-471A-AD92-AED919B37C80}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.Debug|Any CPU.ActiveCfg = DVD-5
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.Debug|Any CPU.Build.0 = DVD-5
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.DVD-5|Any CPU.Build.0 = DVD-5
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.Release|Any CPU.ActiveCfg = SingleImage
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.Release|Any CPU.Build.0 = SingleImage
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{FAD7A849-1D29-46B8-ACD4-CDFCF4FDFFFB}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
