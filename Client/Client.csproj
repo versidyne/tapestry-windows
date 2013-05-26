@@ -96,6 +96,9 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Versidyne.Network">
+      <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Network.dll</HintPath>
+    </Reference>
     <Reference Include="Versidyne.Plugins, Version=0.1.0.0, Culture=neutral, PublicKeyToken=e88bf30d7266366e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Plugins.dll</HintPath>
@@ -103,6 +106,9 @@
     <Reference Include="Versidyne.Protocols, Version=0.1.0.0, Culture=neutral, PublicKeyToken=5fe14c414ca5e5cc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="Versidyne.Security">
+      <HintPath>..\..\cresco-windows\Output\Any\Versidyne.Security.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
