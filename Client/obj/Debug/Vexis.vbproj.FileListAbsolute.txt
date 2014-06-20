@@ -1,0 +1,81 @@
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\bin\Debug\Vexis.exe
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\bin\Debug\Vexis.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\bin\Debug\Vexis.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\obj\Debug\Vexis.Form1.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\obj\Debug\Vexis.Resources.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\obj\Debug\Vexis.vbproj.GenerateResource.Cache
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\obj\Debug\Vexis.exe
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\obj\Debug\Vexis.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Vexis\Vexis\obj\Debug\Vexis.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.exe
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Vexis.exe
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Vexis.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Vexis.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.About.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Channels.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Login.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Main.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Resources.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.vbproj.GenerateResource.Cache
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Chat.resources
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.exe
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.xml
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.pdb
+H:\Programming\Vexis\Vexis\bin\Debug\Vexis.exe
+H:\Programming\Vexis\Vexis\bin\Debug\Vexis.pdb
+H:\Programming\Vexis\Vexis\bin\Debug\Vexis.xml
+H:\Programming\Vexis\Vexis\obj\Debug\ResolveAssemblyReference.cache
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.About.resources
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.Channels.resources
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.Chat.resources
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.Login.resources
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.Main.resources
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.Resources.resources
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.vbproj.GenerateResource.Cache
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Network.dll
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Protocols.dll
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Network.pdb
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Network.xml
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Protocols.pdb
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Protocols.xml
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Security.dll
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Security.pdb
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Security.xml
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Plugins.dll
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Plugins.pdb
+H:\Programming\Vexis\Vexis\bin\Debug\Versidyne.Plugins.xml
+H:\Programming\Vexis\Vexis\obj\Debug\Vexis.Plugins.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Network.dll
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Plugins.dll
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Protocols.dll
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Security.dll
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Plugins.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Plugins.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Security.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Security.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Network.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Network.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Protocols.pdb
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\bin\Debug\Versidyne.Protocols.xml
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Plugins.resources
+C:\Users\Alejandro Gurrola\Documents\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Splash.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.exe
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.xml
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.pdb
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\bin\Debug\Vexis.exe
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\bin\Debug\Vexis.pdb
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\bin\Debug\Vexis.xml
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.About.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Channels.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Chat.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Login.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Main.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Plugins.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Splash.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.Resources.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Vexis\obj\Debug\Vexis.vbproj.GenerateResource.Cache

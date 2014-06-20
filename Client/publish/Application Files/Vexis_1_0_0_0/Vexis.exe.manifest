@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Vexis.exe" version="1.0.0.0" publicKeyToken="7a3d19db81adbe1c" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="shadow_head.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Vexis" version="0.5.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Vexis.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Network.dll" size="26624">
+      <assemblyIdentity name="Versidyne.Network" version="0.3.0.0" publicKeyToken="F279BEFBEF6C616B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NsvOeX67jFnN6FJZGjdlo6pXa9S/38/vZW/zMo1dhd4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Plugins.dll" size="22016">
+      <assemblyIdentity name="Versidyne.Plugins" version="0.1.0.0" publicKeyToken="E88BF30D7266366E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6oKtMoOq7PU/lK/2pJZSyuUGoUTnqXwILbgEGK+ShsM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Protocols.dll" size="21504">
+      <assemblyIdentity name="Versidyne.Protocols" version="0.1.0.0" publicKeyToken="5FE14C414CA5E5CC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>taI5njUFv4yph18O9RVyLMmnY0rR2M3/dhZn/T6XFRg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Security.dll" size="23552">
+      <assemblyIdentity name="Versidyne.Security" version="0.1.0.0" publicKeyToken="41AD9A09121758E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ngApLI6bQKLPqtKIXqBEBS1kpLtyTCn98pxq9SxX+aw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vexis.exe" size="115712">
+      <assemblyIdentity name="Vexis" version="0.5.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s/XMnNukquTJAuhv/Mmr0M4huBLtFgdfIDjEodc9AdU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="shadow_head.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j18iVxrtUH5hBZri9AVEXh4DZYaPvgBgMiB5Cvy4NYI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Vexis.exe.config" size="1346">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r/T7Os18jFgFfeZcm1CRePc5Z4VsSby4uYJESiVURpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ALEX-LAPTOP\Alex" issuerKeyHash="18fc194572b47cd676e08d2b7862f279f010affc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bgwa77u987Au+Sao1im47nq8yTcqEj/6MfF3VNRdJXo=</DigestValue></Reference></SignedInfo><SignatureValue>gCEyqJqq/klV27sSRN4QGsTQowEPdH0v56eW4yD3R7En3vHzUUIexec5zKyiwc+PYJhBYrIrmfPvpzkp7LpasrKagdxKag5pYG70UOIcW1RdLAcYbvTW6fiMBnliIkx1OEeWP+9qOc9aW/gWOBIBMOdSZ4xGGQYYaBQORRbGvnY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wJLGGrJc+PbMJlTcixya2MnKuaJM5qWJWOeK6CfWoTzuuXSUjaJtw2lLcItoSNhx3KEjXl0/7S7luzoHAK4mw9jrS1QPLC67ORN2TKmjq2NqsqsF95yxsVz7fpu/QVDDEeOlEEPe8FAFoiudpsWo877vPWeHdJlOUNEjd3hKQak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7a255dd45477f131fa3f122a37c9bc7aeeb829d6a826f92eb0f3bdbbef1a0c6e" Description="" Url=""><as:assemblyIdentity name="Vexis.exe" version="1.0.0.0" publicKeyToken="7a3d19db81adbe1c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALEX-LAPTOP\Alex</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YKtKEAi0B2XllPtw0zRWlrbFTnN5hLG0DZXi17FO1DY=</DigestValue></Reference></SignedInfo><SignatureValue>N9GXf0D/XN7V7usTY0on42QoVi6nz41fKk1gix8YpfmYF6VdJcAoKLue5ms/inSDzjp3nrkw0WfLPqgolOa9XyBo88vS2cdD85mTrvhG6kNQ6Zllz2PfOPer2KsnjYI8lMQd8xWE+zz7fkc76Z/jUckUfdf0Z9zZQVLxd6+FDWM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wJLGGrJc+PbMJlTcixya2MnKuaJM5qWJWOeK6CfWoTzuuXSUjaJtw2lLcItoSNhx3KEjXl0/7S7luzoHAK4mw9jrS1QPLC67ORN2TKmjq2NqsqsF95yxsVz7fpu/QVDDEeOlEEPe8FAFoiudpsWo877vPWeHdJlOUNEjd3hKQak=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQJi7359mq85VKTNBpnronMDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQQBMAEUAWAAtAEwAQQBQAFQATwBQAFwAQQBsAGUAeDAeFw0xMzA1MTYwMjQ2MTFaFw0xNDA1MTYwODQ2MTFaMCsxKTAnBgNVBAMeIABBAEwARQBYAC0ATABBAFAAVABPAFAAXABBAGwAZQB4MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAksYaslz49swmVNyLHJrYycq5okzmpYlY54roJ9ahPO65dJSNom3DaUtwi2hI2HHcoSNeXT/tLuW7OgcAribD2OtLVA8sLrs5E3ZMqaOrY2qyqwX3nLGxXPt+m79BUMMR46UQQ97wUAWiK52mxajzvu89Z4d0mU5Q0SN3eEpBqQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADPsaNv7HRQW4oXUZtrMqzv7fnmlgwjjvMJA7v2NF03HXdD6L7T5QgI907UnM2cLmobUGT8R6h2PdCgG5WVT+0EWMcdS3pqEreJ5jAi/toHDX70/EdLyUWHkssRrg9E60HHk1gUZ0r/e+rdcAYPolWZEjAkdmM7fjBk3uyDQFwIF</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

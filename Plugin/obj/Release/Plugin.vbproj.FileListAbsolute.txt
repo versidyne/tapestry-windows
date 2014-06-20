@@ -1,0 +1,37 @@
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\bin\Release\Plugin.dll
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\bin\Release\Plugin.pdb
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\bin\Release\Plugin.xml
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.Resources.resources
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\ResGen.read.1.tlog
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\ResGen.write.1.tlog
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.dll
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.xml
+C:\Users\Alejandro Gurrola\Desktop\Programming\Projects\Vexis\Plugin\obj\Release\Plugin.pdb
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\bin\Release\Plugin.dll
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\bin\Release\Plugin.pdb
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\bin\Release\Plugin.xml
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\bin\Release\Versidyne.Plugins.dll
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\bin\Release\Versidyne.Plugins.pdb
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\bin\Release\Versidyne.Plugins.xml
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\obj\Release\Plugin.Resources.resources
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\obj\Release\Plugin.vbproj.GenerateResource.Cache
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\obj\Release\Plugin.dll
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\obj\Release\Plugin.xml
+C:\Users\Alex\Programming\Projects\Windows\Vexis\Plugin\obj\Release\Plugin.pdb
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Plugin.dll
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Plugin.xml
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Versidyne.Plugins.dll
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Versidyne.System.dll
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Versidyne.Plugins.pdb
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Versidyne.Plugins.xml
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Versidyne.System.pdb
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Versidyne.System.xml
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.vbprojResolveAssemblyReference.cache
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.Banner.resources
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.Resources.resources
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.vbproj.GenerateResource.Cache
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.dll
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.xml
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Plugin.pdb
+C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.pdb

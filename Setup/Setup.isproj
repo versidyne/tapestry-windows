@@ -28,8 +28,10 @@
 	</ItemGroup>
 	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2012SpringLimited\InstallShield.targets"/>
 	<ItemGroup>
-		<ProjectReference Include="..\Client\Client.csproj">
-			<Name>Client</Name>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Client\Client.vbproj">
+			<Name>Client1</Name>
 			<Project>{F3887264-6F4C-471A-AD92-AED919B37C80}</Project>
 		</ProjectReference>
 	</ItemGroup>

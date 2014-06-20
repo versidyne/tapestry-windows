@@ -341,7 +341,7 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>Client.Primary_output</td><td>{8BC13099-DC5C-4B92-AAA8-5245C9C61D14}</td><td>INSTALLDIR</td><td>2</td><td/><td>client.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Client.Primary_output</td><td>{C5A61D17-2796-4B23-9C03-00C05D0D2EC0}</td><td>INSTALLDIR</td><td>2</td><td/><td>client.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -552,7 +552,7 @@
 		<row><td>LicenseAgreement</td><td>DlgLine</td><td>Line</td><td>48</td><td>234</td><td>326</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>DlgTitle</td><td>Text</td><td>13</td><td>6</td><td>292</td><td>25</td><td>65539</td><td/><td>##IDS__IsLicenseDlg_LicenseAgreement##</td><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>PushButton</td><td>301</td><td>188</td><td>65</td><td>17</td><td>3</td><td/><td>##IDS_PRINT_BUTTON##</td><td>Agree</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>C:\Users\Alex\Documents\GitHub\vexis-windows\EULA.rtf</td><td/></row>
+		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>C:\Users\Alex\Programming\Projects\Windows\vexis-windows\EULA.rtf</td><td/></row>
 		<row><td>LicenseAgreement</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_BACK##</td><td>Next</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Banner</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>44</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary1</td></row>
@@ -1876,7 +1876,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>client.primary_output</td><td>Client.Primary_output</td><td>Client.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Client&gt;|Built</td><td>3</td><td/></row>
+		<row><td>client.primary_output</td><td>Client.Primary_output</td><td>Client.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Client1&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2134,7 +2134,7 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>Client.Primary_output</td><td/><td/><td>_A1A28F36_7039_4E05_A5C9_EC7D1528C58B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Client.Primary_output</td><td/><td/><td>_9AB23D0D_6B3C_453A_A3BE_762D4E49FA32_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2447,6 +2447,7 @@
 		<col def="S255">TestValue</col>
 		<col def="i4">Type</col>
 		<row><td>Client</td><td>Client\Client.csproj</td><td/><td>2</td></row>
+		<row><td>Client1</td><td>Client\Client.vbproj</td><td/><td>2</td></row>
 		<row><td>CommonFilesFolder</td><td/><td/><td>1</td></row>
 		<row><td>ISPROJECTDIR</td><td/><td/><td>1</td></row>
 		<row><td>ISProductFolder</td><td/><td/><td>1</td></row>
@@ -2763,7 +2764,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Versidyne LLC</td><td>0</td><td/><td>-761174205</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Versidyne LLC</td><td>0</td><td/><td>1805743570</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-761176253</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-761176253</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-761162204</td></row>
@@ -3864,8 +3865,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-761176253</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-761176253</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-761176253</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.versidyne.com</td><td>0</td><td/><td>-761143804</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Versidyne LLC</td><td>0</td><td/><td>-761174205</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.VersidyneLLC.com</td><td>0</td><td/><td>1805743570</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Versidyne LLC</td><td>0</td><td/><td>1805743570</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Vexis</td><td>0</td><td/><td>-761192860</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-761176253</td></row>
 	</table>
@@ -4485,7 +4486,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]Client.Primary output</td><td/></row>
 		<row><td>ProductCode</td><td>{7F2B5598-50B5-4F0F-BA72-73065F00D835}</td><td/></row>
 		<row><td>ProductName</td><td>Vexis</td><td/></row>
-		<row><td>ProductVersion</td><td>0.06.0000</td><td/></row>
+		<row><td>ProductVersion</td><td>0.07.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4562,9 +4563,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>FileKey1</td><td>Client.Primary_output</td><td/><td>versid_1_versidyne_llc</td><td>2</td></row>
-		<row><td>FileKey2</td><td>Client.Primary_output</td><td/><td>vexis</td><td>2</td></row>
-		<row><td>_Built</td><td>Client.Primary_output</td><td/><td>vexis</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4650,8 +4648,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>_Built</td><td>vexis</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Client.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Client.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

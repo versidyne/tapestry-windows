@@ -1,7 +1,7 @@
 Vexis Interface for Windows
 =============
 
-This project runs on the Cresco library. https://github.com/versidyne/cresco-windows
+This project runs on the Cresco library. https://github.com/versidyne/cresco
 
 Features:
 * Channels
