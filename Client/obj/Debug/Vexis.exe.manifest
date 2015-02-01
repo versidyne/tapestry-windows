@@ -43,74 +43,86 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Network.dll" size="26624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Compression.dll" size="7168">
+      <assemblyIdentity name="Versidyne.Compression" version="0.1.0.0" publicKeyToken="360E74651BCCF281" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>y98zvjLsxuhqi/Nz9EIC4BD2z/D83RVObEif+DmHnxo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Network.dll" size="12288">
       <assemblyIdentity name="Versidyne.Network" version="0.3.0.0" publicKeyToken="F279BEFBEF6C616B" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YUhy14Es9U2XLtsz6gdEhV08C2QFqnWCs2T2ZxWJhCk=</dsig:DigestValue>
+        <dsig:DigestValue>V495bHtb44/kcp79cCIjB7ZT2I5xWnKS87vwtXHDqcM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Plugins.dll" size="22016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Plugins.dll" size="7680">
       <assemblyIdentity name="Versidyne.Plugins" version="0.1.0.0" publicKeyToken="E88BF30D7266366E" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AtlSBpTDGFUAYgbjOF+ymLW+lMRt876Nl49tJT/RRRY=</dsig:DigestValue>
+        <dsig:DigestValue>R4f2sq4C4OoFkSfp2MrXAYWAuQNgSpMit8/IqlNEpWo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Protocols.dll" size="23040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Protocols.dll" size="9216">
       <assemblyIdentity name="Versidyne.Protocols" version="0.1.0.0" publicKeyToken="5FE14C414CA5E5CC" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5MuswJmLNIx9fUK2HY05D5Kkmr2LRuwI00/3irpacTc=</dsig:DigestValue>
+        <dsig:DigestValue>rLMpPg22MemMLRrzJbHX/HSKowm0P9zs9GGM25yL7Vg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Security.dll" size="23552">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.Security.dll" size="9216">
       <assemblyIdentity name="Versidyne.Security" version="0.1.0.0" publicKeyToken="41AD9A09121758E1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ATsqpu+1ALH0nZbfLg6VhA6hZjVybIIjorj40hgHYX4=</dsig:DigestValue>
+        <dsig:DigestValue>/0BB2pR1iVcLsz0lJlbsbd8EPdNxXZ2fEiMR897f4X4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.System.dll" size="22016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Versidyne.System.dll" size="8192">
       <assemblyIdentity name="Versidyne.System" version="0.3.0.0" publicKeyToken="5F071605DD2C4214" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KEb0Syf8jNZQqSNIK4mtR+iWmGY4w8sRqwECMNkLig8=</dsig:DigestValue>
+        <dsig:DigestValue>hO4YhAt6WuIC71EF3NFBnAXRCrImrNHq0ClR23cjAkM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vexis.exe" size="1235456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vexis.exe" size="1236392">
       <assemblyIdentity name="Vexis" version="0.7.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rgOjEmvuPF6ORnGvQvL62yIKjqTTseSTC5uUp+pCJJ8=</dsig:DigestValue>
+        <dsig:DigestValue>G7fxkBaioBf6paRxLLD0EIFuxlBm5O1L19oggxQisVE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

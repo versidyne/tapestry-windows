@@ -35,3 +35,16 @@ C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plug
 C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.xml
 C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\bin\Release\Plugin.pdb
 C:\Users\Alex\Programming\Projects\Windows\vexis-windows\Plugin\obj\Release\Plugin.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\bin\Release\Plugin.dll
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\bin\Release\Plugin.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\bin\Release\Plugin.xml
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\bin\Release\Versidyne.Plugins.dll
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\bin\Release\Versidyne.Plugins.pdb
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\bin\Release\Versidyne.Plugins.xml
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Release\Plugin.vbprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Release\Plugin.Banner.resources
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Release\Plugin.Resources.resources
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Release\Plugin.vbproj.GenerateResource.Cache
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Release\Plugin.dll
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Release\Plugin.xml
+C:\Users\Alex\Documents\GitHub\vexis-windows\Plugin\obj\Release\Plugin.pdb

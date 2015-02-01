@@ -74,11 +74,9 @@
     <Reference Include="System.Data.DataSetExtensions">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="Versidyne.Plugins">
-      <HintPath>..\..\Cresco\Output\Any\Versidyne.Plugins.dll</HintPath>
-    </Reference>
-    <Reference Include="Versidyne.System">
-      <HintPath>..\..\cresco\Output\Any\Versidyne.System.dll</HintPath>
+    <Reference Include="Versidyne.Plugins, Version=0.1.0.0, Culture=neutral, PublicKeyToken=e88bf30d7266366e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\cresco\Output\Any\Versidyne.Plugins.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -90,8 +88,6 @@
     <Import Include="System.Diagnostics" />
     <Import Include="System.Linq" />
     <Import Include="System.Xml.Linq" />
-    <Import Include="Versidyne" />
-    <Import Include="Versidyne.Plugins" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banner.Designer.vb">

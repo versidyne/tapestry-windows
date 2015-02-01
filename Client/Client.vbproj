@@ -69,7 +69,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>22D8EFE70D6A683AE53DE8DD9FA4EAC4DCFFF2AB</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>A8D1651C07C142D5499308EAAB24AF39F8CC0EB8</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>Client_TemporaryKey.pfx</ManifestKeyFile>
@@ -94,23 +94,23 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="Versidyne.Network, Version=0.3.0.0, Culture=neutral, PublicKeyToken=f279befbef6c616b, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Cresco\Output\Any\Versidyne.Network.dll</HintPath>
+    <Reference Include="Versidyne.Compression">
+      <HintPath>..\..\cresco\Output\Any\Versidyne.Compression.dll</HintPath>
     </Reference>
-    <Reference Include="Versidyne.Plugins, Version=0.1.0.0, Culture=neutral, PublicKeyToken=e88bf30d7266366e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Cresco\Output\Any\Versidyne.Plugins.dll</HintPath>
+    <Reference Include="Versidyne.Network">
+      <HintPath>..\..\cresco\Output\Any\Versidyne.Network.dll</HintPath>
     </Reference>
-    <Reference Include="Versidyne.Protocols, Version=0.1.0.0, Culture=neutral, PublicKeyToken=5fe14c414ca5e5cc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Cresco\Output\Any\Versidyne.Protocols.dll</HintPath>
+    <Reference Include="Versidyne.Plugins">
+      <HintPath>..\..\cresco\Output\Any\Versidyne.Plugins.dll</HintPath>
     </Reference>
-    <Reference Include="Versidyne.Security, Version=0.1.0.0, Culture=neutral, PublicKeyToken=41ad9a09121758e1, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Cresco\Output\Any\Versidyne.Security.dll</HintPath>
+    <Reference Include="Versidyne.Protocols">
+      <HintPath>..\..\cresco\Output\Any\Versidyne.Protocols.dll</HintPath>
     </Reference>
-    <Reference Include="Versidyne.System">
+    <Reference Include="Versidyne.Security">
+      <HintPath>..\..\cresco\Output\Any\Versidyne.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Versidyne.System, Version=0.3.0.0, Culture=neutral, PublicKeyToken=5f071605dd2c4214, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\cresco\Output\Any\Versidyne.System.dll</HintPath>
     </Reference>
   </ItemGroup>
