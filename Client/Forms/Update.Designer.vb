@@ -25,14 +25,14 @@ Partial Class Update
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1Output = New System.Windows.Forms.Label()
-        Me.Label2Output = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.CurrentVersionLabel = New System.Windows.Forms.Label()
+        Me.LatestVersionLabel = New System.Windows.Forms.Label()
+        Me.CheckButton = New System.Windows.Forms.Button()
+        Me.DownloadButton = New System.Windows.Forms.Button()
+        Me.InstallButton = New System.Windows.Forms.Button()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.ToolStripStatusLabel1Output = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatus = New System.Windows.Forms.ToolStripStatusLabel()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -61,54 +61,54 @@ Partial Class Update
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Latest Version:"
         '
-        'Label1Output
+        'CurrentVersionLabel
         '
-        Me.Label1Output.AutoSize = True
-        Me.Label1Output.Location = New System.Drawing.Point(100, 10)
-        Me.Label1Output.Name = "Label1Output"
-        Me.Label1Output.Size = New System.Drawing.Size(13, 13)
-        Me.Label1Output.TabIndex = 2
-        Me.Label1Output.Text = "0"
+        Me.CurrentVersionLabel.AutoSize = True
+        Me.CurrentVersionLabel.Location = New System.Drawing.Point(100, 10)
+        Me.CurrentVersionLabel.Name = "CurrentVersionLabel"
+        Me.CurrentVersionLabel.Size = New System.Drawing.Size(13, 13)
+        Me.CurrentVersionLabel.TabIndex = 2
+        Me.CurrentVersionLabel.Text = "0"
         '
-        'Label2Output
+        'LatestVersionLabel
         '
-        Me.Label2Output.AutoSize = True
-        Me.Label2Output.Location = New System.Drawing.Point(100, 35)
-        Me.Label2Output.Name = "Label2Output"
-        Me.Label2Output.Size = New System.Drawing.Size(13, 13)
-        Me.Label2Output.TabIndex = 2
-        Me.Label2Output.Text = "0"
+        Me.LatestVersionLabel.AutoSize = True
+        Me.LatestVersionLabel.Location = New System.Drawing.Point(100, 35)
+        Me.LatestVersionLabel.Name = "LatestVersionLabel"
+        Me.LatestVersionLabel.Size = New System.Drawing.Size(13, 13)
+        Me.LatestVersionLabel.TabIndex = 2
+        Me.LatestVersionLabel.Text = "0"
         '
-        'Button1
+        'CheckButton
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 60)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(101, 23)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Check for Update"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.CheckButton.Location = New System.Drawing.Point(12, 60)
+        Me.CheckButton.Name = "CheckButton"
+        Me.CheckButton.Size = New System.Drawing.Size(101, 23)
+        Me.CheckButton.TabIndex = 3
+        Me.CheckButton.Text = "Check for Update"
+        Me.CheckButton.UseVisualStyleBackColor = True
         '
-        'Button2
+        'DownloadButton
         '
-        Me.Button2.Location = New System.Drawing.Point(12, 95)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(101, 23)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Download Update"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.DownloadButton.Location = New System.Drawing.Point(12, 95)
+        Me.DownloadButton.Name = "DownloadButton"
+        Me.DownloadButton.Size = New System.Drawing.Size(101, 23)
+        Me.DownloadButton.TabIndex = 3
+        Me.DownloadButton.Text = "Download Update"
+        Me.DownloadButton.UseVisualStyleBackColor = True
         '
-        'Button3
+        'InstallButton
         '
-        Me.Button3.Location = New System.Drawing.Point(12, 130)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(101, 23)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Install Update"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.InstallButton.Location = New System.Drawing.Point(12, 130)
+        Me.InstallButton.Name = "InstallButton"
+        Me.InstallButton.Size = New System.Drawing.Size(101, 23)
+        Me.InstallButton.TabIndex = 3
+        Me.InstallButton.Text = "Install Update"
+        Me.InstallButton.UseVisualStyleBackColor = True
         '
         'StatusStrip1
         '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel1Output})
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatus})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 205)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(484, 22)
@@ -121,11 +121,11 @@ Partial Class Update
         Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(88, 17)
         Me.ToolStripStatusLabel1.Text = "Current Action:"
         '
-        'ToolStripStatusLabel1Output
+        'ToolStripStatus
         '
-        Me.ToolStripStatusLabel1Output.Name = "ToolStripStatusLabel1Output"
-        Me.ToolStripStatusLabel1Output.Size = New System.Drawing.Size(36, 17)
-        Me.ToolStripStatusLabel1Output.Text = "None"
+        Me.ToolStripStatus.Name = "ToolStripStatus"
+        Me.ToolStripStatus.Size = New System.Drawing.Size(36, 17)
+        Me.ToolStripStatus.Text = "None"
         '
         'Update
         '
@@ -133,11 +133,11 @@ Partial Class Update
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(484, 227)
         Me.Controls.Add(Me.StatusStrip1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label2Output)
-        Me.Controls.Add(Me.Label1Output)
+        Me.Controls.Add(Me.InstallButton)
+        Me.Controls.Add(Me.DownloadButton)
+        Me.Controls.Add(Me.CheckButton)
+        Me.Controls.Add(Me.LatestVersionLabel)
+        Me.Controls.Add(Me.CurrentVersionLabel)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ProgressBar1)
@@ -152,12 +152,12 @@ Partial Class Update
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1Output As System.Windows.Forms.Label
-    Friend WithEvents Label2Output As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents CurrentVersionLabel As System.Windows.Forms.Label
+    Friend WithEvents LatestVersionLabel As System.Windows.Forms.Label
+    Friend WithEvents CheckButton As System.Windows.Forms.Button
+    Friend WithEvents DownloadButton As System.Windows.Forms.Button
+    Friend WithEvents InstallButton As System.Windows.Forms.Button
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As System.Windows.Forms.ToolStripStatusLabel
-    Friend WithEvents ToolStripStatusLabel1Output As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatus As System.Windows.Forms.ToolStripStatusLabel
 End Class

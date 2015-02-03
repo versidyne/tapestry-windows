@@ -421,7 +421,6 @@
     Private Sub UpdateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UpdateToolStripMenuItem.Click
 
         UpdateChild = New Update
-
         UpdateChild.Show()
 
     End Sub
@@ -429,7 +428,6 @@
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
 
         AboutChild = New About
-
         AboutChild.Show()
 
     End Sub
@@ -443,7 +441,6 @@
     Private Sub ChannelsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ChannelsToolStripMenuItem.Click
 
         ChannelsChild = New Channels
-
         ChannelsChild.Show()
 
     End Sub
@@ -457,7 +454,6 @@
     Private Sub LoginToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LoginToolStripMenuItem.Click
 
         LoginChild = New Login
-
         LoginChild.Show()
 
     End Sub
